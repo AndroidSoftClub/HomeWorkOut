@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        android:layout_margin="5dp"
+        app:cardBackgroundColor="@color/ll_color"
+        app:cardElevation="3dp">
+
+        <LinearLayout
+            android:id="@+id/llID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?selectableItemBackground"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/dayTVID"
+                android:layout_width="match_parent"
+                android:text="Day 1"
+                android:padding="10dp"
+                android:textColor="@color/view_color"
+                android:textSize="18sp"
+                android:fontFamily="monospace"
+                android:layout_margin="5dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/exerxiseTVID"
+                android:layout_width="match_parent"
+                android:text="5 exercise"
+                android:fontFamily="monospace"
+                android:layout_gravity="center"
+                android:padding="5dp"
+                android:textColor="@color/view_color"
+                android:layout_margin="5dp"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tvprogresID"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="0dp"
+                android:text="0%"
+                android:textColor="@color/view_color"
+                android:fontFamily="serif"
+                android:gravity="center"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true" />
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="0dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:indeterminate="false"
+                android:max="20"
+                android:progressDrawable="@drawable/circular_progress_bar" />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="language_option"> Option de langue </string>
+    <string name="armworkout">Entraînement des bras</string>
+    <string name="one">une</string>
+    <string name="two">Deux</string>
+    <string name="three">Trois</string>
+    <string name="four">Quatre</string>
+    <string name="five">Cinq</string>
+    <string name="six">Six</string>
+    <string name="seven">Sept</string>
+    <string name="eight">Huit</string>
+    <string name="nine">Neuve</string>
+    <string name="ten">Dix</string>
+    <string name="eleven">Onze</string>
+    <string name="twell">Douze</string>
+    <string name="thirteen">Treize</string>
+    <string name="fourtyn">Quatorze</string>
+    <string name="fiftyn">Quinze</string>
+    <string name="sixtyn">Seize</string>
+    <string name="seventyn">Dix-sept</string>
+    <string name="beginer">DÉBUTANT AU BRAS</string>
+    <string name="intermediat">INTERMÉDIAIRE DE BRAS</string>
+    <string name="advance">ARM ADVANCE</string>
+    <string name="dd1">Perdre de la graisse et gagner de la masse musculaire</string>
+    <string name="dd2">Sculptez les bras en peu de temps</string>
+    <string name="dd3">Obtenez des bras plus gros et plus forts</string>
+    <string name="d1">28 jours de plus</string>
+    <string name="d2">28 jours de plus</string>
+    <string name="d3">28 jours de plus</string>
+    <string name="day1">Jour 1</string>
+    <string name="day2">Jour 2</string>
+    <string name="day3">Jour 3</string>
+    <string name="day4">Jour 4</string>
+    <string name="day5">Jour 5</string>
+    <string name="day6">Jour 6</string>
+    <string name="day7">Jour 7</string>
+    <string name="day8">Jour 8</string>
+    <string name="day9">Jour 9</string>
+    <string name="day10">Jour 10</string>
+    <string name="rest_time">Aujourd hui, reposez-vous \n Détendez votre corps</string>
+    <string name="finishbtn">Finir</string>
+    <string name="workout">ENTRAÎNEMENT</string>
+    <string name="sound_options">Options sonores</string>
+    <string name="test_voice">Test de la voix</string>
+    <string name="select_tts_engine">Sélectionnez le moteur TTS</string>
+    <string name="google_text_to_speech_engine">Moteur de synthèse vocale Google</string>
+    <string name="download_tts_engine">Télécharger TTS Engine</string>
+    <string name="voice_language">Langue de la voix</string>
+    <string name="ddefault">Défaut</string>
+    <string name="device_tts_setting">Paramètre TTS de l appareil</string>
+    <string name="general_settings">réglages généraux</string>
+    <string name="synce_to_google_fit">Synchroniser avec Google Fit</string>
+    <string name="health_data">Données de santé</string>
+    <string name="remaind_me_to_workout_every_day">Je suis resté à m entraîner tous les jours</string>
+    <string name="metric_and_imperial_units">Unités métriques et impériales</string>
+    <string name="delete_all_data">Supprimer toutes les données</string>
+    <string name="support_us">Soutenez-nous</string>
+    <string name="rate_us">Évaluez nous</string>
+    <string name="share_us">Partagez-nous</string>
+    <string name="feedback">Retour</string>
+    <string name="privacy_policy">Politique de confidentialité</string>
+    <string name="version_1_0_11d">Version 1.0.11D</string>
+    <string name="next_name">Nom de l exercice suivant:</string>
+    <string name="comeback">reviens dans 30 minutes</string>
+    <string name="well">Bien terminer notre exercice</string>
+    <string name="preveuse_exercise">Nom de l exercice précédent:</string>
+    <string name="alarm">Alarme réglée en 10 secondes</string>
+    <string name="name_seventyn">Nom: dix-sept</string>
+    <string name="discription_dialog"><![CDATA[-> Ceci est un meilleur exercice Aide à remplir notre corps Le meilleur exercice que vous pouvez le faire! Description de base]]></string>
+    <string name="reset">Réinitialiser</string>
+    <string name="save">Sauvegarder</string>
+    <string name="darkmode">Dark mode</string>
+
+
+</resources>

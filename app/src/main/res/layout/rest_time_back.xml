@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@color/ll_color"
+            android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/bbtttvID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ready To Go After 5 Sec"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:fontFamily="monospace"
+        android:textColor="@color/view_color"
+        android:textSize="18sp"/>
+
+    <ImageView
+        android:id="@+id/bbttivID"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:src="@drawable/day2e1" />
+
+    <TextView
+        android:id="@+id/bbtttvNameID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Exercise Name"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:textSize="22sp"
+        android:fontFamily="monospace"
+        android:textColor="@color/view_color" />
+
+            <Button
+                android:id="@+id/back_btn_dialog_skip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ovel"
+                android:text="Skip"
+                android:textColor="#fff"
+                android:layout_margin="10dp"
+                android:fontFamily="monospace"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:gravity="center"/>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

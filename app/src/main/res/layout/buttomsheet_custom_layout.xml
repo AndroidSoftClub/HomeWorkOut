@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_margin="10dp"
+    android:background="@color/ll_color"
+    android:layout_height="wrap_content">
+
+
+
+            <ImageView
+                android:id="@+id/close_bottm_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/wp_ic_info_close"
+                android:adjustViewBounds="true"
+                android:background="?selectableItemBackground"
+                android:scaleType="fitCenter"
+                android:layout_gravity="start"
+                android:padding="5dp"/>
+
+            <ImageView
+                android:id="@+id/iv_bottmsheet_id"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/day2e1"
+                android:adjustViewBounds="true"
+                android:layout_gravity="center"
+                android:scaleType="fitCenter"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.8dp"
+                android:background="@color/view_color"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.8dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/view_color"/>
+
+
+            <TextView
+                android:id="@+id/tv_bottmname_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:textColor="@color/view_color"
+                android:gravity="center"
+                android:text="Exercise Name"
+                android:fontFamily="sans-serif-smallcaps"
+                android:layout_gravity="start"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.8dp"
+                android:background="#000"/>
+
+            <LinearLayout
+                android:id="@+id/iv_llvideo_bottm_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?selectableItemBackground"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="?selectableItemBackground"
+                    android:src="@drawable/td_ic_video_2"/>
+
+                <TextView
+                    android:id="@+id/video_text_ID"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="VIDEO"
+                    android:layout_gravity="center"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="5dp"
+                    android:background="?selectableItemBackground"
+                    android:textStyle="bold"
+                    android:textColor="@color/view_color"
+                    android:fontFamily="sans-serif-smallcaps"/>
+
+            </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.8dp"
+        android:background="#000"/>
+
+            <TextView
+                android:id="@+id/tb_basicdiscription_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Stand with your feet shoulder-width apart,and place your dominant foot slightly for-ward. Slightly bend your knees,clench your fists and bend your elbows at 90 degrees. \n\nRaise your right arm to shoulder height and keep UP...\n\n\n BASIC DESCRIPTION PART"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="@color/view_color"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                />
+    <Button
+        android:id="@+id/btn_bottomsheet_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ovel"
+        android:layout_marginTop="50sp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Continue"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textSize="18sp"
+        android:layout_margin="10dp"
+        android:textColor="#fff"
+        android:textStyle="bold"/>
+
+
+</LinearLayout>

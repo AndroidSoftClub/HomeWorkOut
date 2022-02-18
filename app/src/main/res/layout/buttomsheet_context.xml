@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/ll_color"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="8dp"
+        app:cardCornerRadius="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@color/ll_color"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_last_dialog"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/view_color"
+                android:layout_margin="12dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:textSize="20dp"
+                android:text="You get This Point..\n5/5"
+                android:layout_gravity="center"
+                android:gravity="center"/>
+
+            <ImageView
+                android:id="@+id/ivDilaogID"
+                android:layout_height="100dp"
+                android:layout_width="wrap_content"
+                android:src="@drawable/congo"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@color/ll_color"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/dd_shareID"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:background="#6A1B9A"
+            android:text="Share"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            />
+
+        <Button
+            android:id="@+id/btn_next_last_dialogID"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="#FF8F00"
+            android:layout_margin="10dp"
+            android:text="Next"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
+            android:layout_gravity="center"/>
+
+
+
+    </LinearLayout>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
