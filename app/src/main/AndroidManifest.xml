@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.work">
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.SET_ALARM" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:name="com.example.Activity.MyApplication"
+        android:allowBackup="true"
+        android:appCategory="social"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:requiredForAllUsers="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning,InnerclassSeparator"
+        tools:targetApi="o">
+
+        <activity android:name="com.example.Activity.ReminderActivity"></activity>
+
+        <activity
+            android:name="com.example.Activity.HelthDataActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.Activity.SettingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.Activity.BMIActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.Activity.RestTimeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.Activity.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.Activity.StartActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.Activity.DayInnerActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.Activity.DaysActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.Activity.SpalceScreen"
+            android:screenOrientation="portrait"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <receiver android:name="com.example.Broadcast.BootReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.REBOOT" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+
+            </intent-filter>
+        </receiver>
+
+        <receiver
+            android:name="com.example.Broadcast.MyReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.INPUT_METHOD_CHANGED" />
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

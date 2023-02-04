@@ -1,0 +1,41 @@
+<resources xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#fff</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="dialogCornerRadius">8dp</item>
+        <item name="android:dialogCornerRadius" tools:targetApi="q" tools:ignore="NewApi">8dp</item>
+        <item name="android:windowContentTransitions" tools:targetApi="lollipop">true</item>
+        <item name="android:windowAnimationStyle">@style/WindowAnimationStyle</item>
+        <item name="android:keepScreenOn">true</item>
+        <item name="android:turnScreenOn" tools:ignore="NewApi">true</item>
+
+    </style>
+
+    
+    <style name="WindowAnimationStyle">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+
+    <style name="AppBottomSheetDialogTheme"
+        parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/AppModalStyle</item>
+    </style>
+
+    <style name="AppModalStyle"
+        parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:dialogCornerRadius" tools:targetApi="p">8dp</item>
+        <item name="android:colorBackground">#fff</item>
+        <item name="android:scaleType">fitCenter</item>"
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:windowContentTransitions" tools:targetApi="lollipop">true</item>
+        <item name="android:windowAnimationStyle">@style/WindowAnimationStyle</item>
+        <item name="android:background">@drawable/bottom_sheer_rounded_dialog</item>
+
+    </style>
+
+</resources>

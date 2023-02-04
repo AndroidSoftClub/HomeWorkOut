@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.Activity.BMIActivity"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/bmi_tool_ID"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        app:title="BMI Calculator"
+        app:titleTextColor="@color/view_color"
+        android:background="@color/ll_color"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.8dp"
+        android:background="@color/view_color"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="8dp"
+        app:cardCornerRadius="8dp"
+        app:cardBackgroundColor="@color/ll_color"
+        android:layout_gravity="center"
+        android:layout_margin="10dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="?selectableItemBackground"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/weight_bmi_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:inputType="number"
+                android:hint="Weight in Kgs"
+                android:layout_gravity="center" />
+
+
+            <EditText
+                android:id="@+id/height_bmi_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="Height in cm"
+                android:inputType="number"
+                android:layout_gravity="center" />
+
+            <Button
+                android:id="@+id/btn_bmi_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#EF6C00"
+                android:layout_margin="10dp"
+                android:text="Calculate"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:textColor="#fff"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.8dp"
+        android:background="@color/view_color"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.8dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/view_color"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Result"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/view_color"
+        android:fontFamily="sans-serif-smallcaps" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.8dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/view_color"/>
+
+    <TextView
+        android:id="@+id/tv_bmi_scoreID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:textStyle="normal"
+        android:fontFamily="monospace"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:textColor="@color/view_color"
+        android:layout_gravity="center"
+        android:gravity="start"/>
+
+
+    <TextView
+        android:id="@+id/tv_bmi_remarkcatID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="normal"
+        android:textSize="20dp"
+        android:textColor="@color/view_color"
+        android:fontFamily="monospace"
+        android:layout_gravity="center"
+        android:gravity="start"/>
+
+
+</LinearLayout>

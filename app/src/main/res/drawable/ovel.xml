@@ -1,0 +1,19 @@
+
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <solid
+        android:color="#fff"/>
+    <solid
+        android:color="@color/design_default_color_primary"/>
+    <gradient
+        android:startColor="@color/design_default_color_primary"
+        android:endColor="@color/design_default_color_primary"
+        android:type="linear"
+        android:gradientRadius="12dp"/>
+
+
+    <corners android:radius="10dp"
+        /> <!-- The value here should specify How much ovally you want shape be -->
+</shape>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="8dp"
+        app:cardBackgroundColor="@color/ll_color"
+        app:cardElevation="8dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_exit_dialog"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/omback_dialog_iv_canvel"
+                android:layout_width="30sp"
+                android:layout_height="30sp"
+                android:layout_gravity="end"
+                android:src="@drawable/wp_ic_info_close"
+                android:adjustViewBounds="true"
+                android:layout_marginRight="10dp"
+                android:scaleType="centerCrop"
+                android:layout_margin="2dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Keep going! You're almost \nthere"
+                android:textSize="18sp"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:layout_margin="5dp"
+                android:fontFamily="monospace"
+                android:layout_gravity="center"
+                android:gravity="center"/>
+
+            <Button
+                android:id="@+id/onback_dialog_quit_btn"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Quit"
+                android:fontFamily="sans-serif-smallcaps"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:layout_margin="20dp"
+                android:textStyle="bold"
+                android:background="@drawable/ovel"/>
+
+            <Button
+                android:id="@+id/onback_continue_dialog_brn"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:text="Continue"
+                android:fontFamily="sans-serif-smallcaps"
+                android:layout_margin="5dp"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:background="@drawable/ovel"/>
+
+            <TextView
+                android:id="@+id/onback_dialog_tv_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Come back in 30 minutes"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="5dp"
+                android:textColor="#fff"
+                android:layout_margin="5dp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:background="?selectableItemBackground"/>
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

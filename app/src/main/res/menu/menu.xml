@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/bmiID"
+        android:title="BMI calculator"
+        android:icon="@drawable/rp_ic_bmi_orange"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/settingID"
+        android:title="Setting"
+        android:icon="@drawable/ic_menu_setting"
+        app:showAsAction="always"/>
+
+</menu>
